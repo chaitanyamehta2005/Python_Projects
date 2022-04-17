@@ -12,7 +12,7 @@ def insert_elem_pos(lst,elem,pos):
     for i in range (0,len(lst),pos):
         output.extend(lst[i:i+pos])
         output.append(elem)
-        output.pop()
+    output.pop()
     return output
 
 # Take input list
