@@ -12,6 +12,7 @@ def insert_elem_pos(lst,elem,pos):
     for i in range (0,len(lst),pos):
         output.extend(lst[i:i+pos])
         output.append(elem)
+        output.pop()
     return output
 
 # Take input list
@@ -22,5 +23,5 @@ output_list_1= insert_elem_pos(input_list,'a',2)
 print("new list after inserting a at after every 2nd element is : {0}".format(output_list_1))
 
 # Insert b after every 3rd element
-output_list_2= insert_elem_pos(input_list,'b',3)
-print("new list after inserting b at after every 3rd element is : {0}".format(output_list_2))
+output_list_2= insert_elem_pos(input_list,'b',4)
+print("new list after inserting b at after every 4th element is : {0}".format(output_list_2))
