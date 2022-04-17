@@ -12,10 +12,13 @@ Remove the last 1 element from the said list:
 #Following function removes last N elements from list
 def remove_N_elem(lst,N):
     for i in range (0,N):
+        if lst ==[]:
+            print("Sorry, the list is empty. Nothing to remove")
+            return
         lst.pop()
     return lst
 
 orig_list= [2, 3, 9, 8, 2, 0, 39, 84, 2, 2, 34, 2, 34, 5, 3, 5]
 
-output_1 = remove_N_elem(orig_list,3)
+output_1 = remove_N_elem(orig_list,19)
 print(output_1)
