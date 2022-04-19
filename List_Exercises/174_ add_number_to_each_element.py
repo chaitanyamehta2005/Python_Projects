@@ -15,8 +15,8 @@ def add_number(lst,num):
     return output
 
 
-origin_lst=[3.2, 8, 9.9, 4.2, 5, 0.1, 5, 3.11, 0]
-print(add_number(origin_lst,0.51))
+origin_lst=[3, 8, 9, 4, 5, 0, 5, 0, 3]
+print(add_number(origin_lst,3))
 
 origin_lst=[3.2, 8, 9.9, 4.2, 5, 0.1, 5, 3.11, 0]
 print(add_number(origin_lst,0.51))
