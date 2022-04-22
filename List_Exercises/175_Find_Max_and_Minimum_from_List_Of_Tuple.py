@@ -22,6 +22,5 @@ result = min_max(input_lst)
 print("Maximum values of the list of tuple is {0}".format(result[0]))
 
 #Minimum values print
-
 print("Minimum values of the list of tuple is {0}".format(result[1]))
 
