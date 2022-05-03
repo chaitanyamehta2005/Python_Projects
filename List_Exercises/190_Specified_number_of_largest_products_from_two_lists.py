@@ -12,7 +12,6 @@ import itertools
 
 def largest_product(lst1,lst2,n):
     result = sorted([x*y for x in lst1 for y in lst2], reverse=True)[:n]
-
     return result[:n]
 
 def largest_product_v2(lst1,lst2,n):
