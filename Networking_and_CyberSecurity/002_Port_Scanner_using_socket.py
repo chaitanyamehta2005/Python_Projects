@@ -15,10 +15,8 @@ def port_scanner(host,port):
         #print('port {0} is closed'.format(port))
         pass
 
-threads = []
 for x in range(1,65535):
     t = threading.Thread(target = port_scanner, args=(host,x))
-    threads.append(t)
     t.start()
 
 
