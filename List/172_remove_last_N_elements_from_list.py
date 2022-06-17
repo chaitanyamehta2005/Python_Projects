@@ -20,5 +20,5 @@ def remove_N_elem(lst,N):
 
 orig_list= [2, 3, 9, 8, 2, 0, 39, 84, 2, 2, 34, 2, 34, 5, 3, 5]
 
-output_1 = remove_N_elem(orig_list,19)
+output_1 = remove_N_elem(orig_list,10)
 print(output_1)
