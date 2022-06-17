@@ -5,8 +5,8 @@ def read_column(csv_filename, column_name):
         csv_data = csv.DictReader(file)
         colum_list = []
         for row in csv_data:
-            var_name = row[column_name]
-            colum_list.append(var_name)
+            data = row[column_name]
+            colum_list.append(data)
         return colum_list
 
 
